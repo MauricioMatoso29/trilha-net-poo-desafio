@@ -11,3 +11,5 @@ Console.WriteLine("SmartPhone Iphone");
 Smartphone iphone = new Iphone(numero: "321", modelo: "Modelo 3", imei: "33333", memoria: 64);
 iphone.ReceberLigacao();
 iphone.InstalarAplicativo("Instagram");
+iphone.InstalarAplicativo("Uber");
+iphone.DesinstalarAplicativo("Instagram");

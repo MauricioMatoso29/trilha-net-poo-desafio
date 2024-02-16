@@ -26,5 +26,6 @@ namespace DesafioPOO.Models
         }
 
         public abstract void InstalarAplicativo(string nomeApp);
+        public abstract void DesinstalarAplicativo(string nomeApp);
     }
 }
